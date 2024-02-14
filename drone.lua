@@ -13,7 +13,7 @@ function part(name)
   return component.proxy(component.list(name)())
 end
 
-local repo = "https://raw.githubusercontent.com/osmarks/oc-drone/master/"
+local repo = "https://raw.githubusercontent.com/finnaminope/oc-drone/master/"
 chat = part "chat"
 radar = part "radar"
 drone = part "drone"
