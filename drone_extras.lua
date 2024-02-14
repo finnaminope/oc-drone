@@ -169,5 +169,5 @@ local function chat_control()
   end
 end
 
-register_coro(follow, false)
+--register_coro(follow, false)
 register_coro(chat_control, true)
